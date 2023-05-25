@@ -1,0 +1,9 @@
+{%  extends 'base.html' %}
+{% load static %}
+{% block content %}
+<h1 style="font-size:50px; color:blue;" ><center>Welcome To Your Campus Store</center></h1>
+<h4><a class="btn btn-success" href="{% url 'credentials:login' %}">Let's Make a Bond With Us</a></h4>
+<div class="container">
+    <img  src="{% static 'images/college.jpg' %}" style="width:1300px; height:500px;" alt="college">
+</div>
+{% endblock %}
